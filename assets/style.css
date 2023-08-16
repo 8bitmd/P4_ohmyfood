@@ -1,0 +1,68 @@
+/*  font-family: 'Roboto', sans-serif;
+ *  font-family: 'Shrikhand', cursive; */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-main {
+  font-size: 16px;
+  border-radius: 25px;
+  border: none;
+  padding: 13px 16px 13px 16px;
+  color: white;
+  background: linear-gradient(175deg, #ff79da, #9356dc);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  header img, header div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .header-logo {
+    height: 36px;
+    padding: 20px 90px 20px 90px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    z-index: 0;
+  }
+  .header-location {
+    height: 50px;
+    gap: 17px;
+    color: #353535;
+    background-color: #EAEAEA;
+    font-weight: 500;
+  }
+  .header-location i {
+    align-self: center;
+  }
+  .home-book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F6F6F6;
+  }
+  .home-book h1 {
+    margin: 40px 50px 10px 50px;
+    align-self: center;
+  }
+  .home-book p {
+    margin: 0 30px 25px 30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #353535;
+  }
+  .home-book button {
+    margin-bottom: 57px;
+  }
+}/*# sourceMappingURL=style.css.map */
