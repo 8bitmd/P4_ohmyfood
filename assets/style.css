@@ -9,93 +9,169 @@
   padding: 13px 16px 13px 16px;
   color: white;
   background: linear-gradient(175deg, #ff79da, #9356dc);
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
-@media (max-width: 768px) {
-  body {
-    margin: 0;
-  }
-  header {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  header img, header div {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-  .header-logo {
-    height: 36px;
-    padding: 20px 90px 20px 90px;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
-    z-index: 0;
-  }
-  .header-location {
-    height: 50px;
-    gap: 17px;
-    color: #353535;
-    background-color: #EAEAEA;
-    font-weight: 500;
-  }
-  .header-location i {
-    align-self: center;
-  }
-  .home-book {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #F6F6F6;
-  }
-  .home-book h1 {
-    margin: 40px 50px 10px 50px;
-    align-self: center;
-  }
-  .home-book p {
-    margin: 0 30px 25px 30px;
-    font-weight: 300;
-    font-size: 18px;
-    color: #353535;
-  }
-  .home-book button {
-    margin-bottom: 57px;
-  }
-  .home-guide {
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
-  }
-  .home-guide h1 {
-    margin: 40px 20px 0 20px;
-  }
-  .home-guide div {
-    display: flex;
-    flex-direction: row;
-    background-color: #F6F6F6;
-    border-radius: 20px;
-    padding: 10px;
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
-    gap: 23px;
-    margin: 0 20px 0 40px;
-    white-space: nowrap;
-  }
-  .home-guide div i {
-    align-self: center;
-    position: relative;
-    bottom: 5px;
-  }
-  .home-guide div p:first-of-type {
-    color: white;
-    background-color: #9356dc;
-    border-radius: 30px;
-    padding: 5px 10px 5px 10px;
-    position: relative;
-    right: 30px;
-  }
-  .home-guide div p:nth-of-type(2n) {
-    font-weight: 500;
-  }
-}/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+header img, header div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.header-logo {
+  height: 36px;
+  padding: 20px 90px 20px 90px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  z-index: 0;
+}
+
+.header-location {
+  height: 50px;
+  gap: 17px;
+  color: #353535;
+  background-color: #EAEAEA;
+  font-weight: 500;
+}
+.header-location i {
+  align-self: center;
+}
+
+.home-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+.home-book h1 {
+  margin: 40px 50px 10px 50px;
+  align-self: center;
+}
+.home-book p {
+  margin: 0 30px 25px 30px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #353535;
+}
+.home-book button {
+  margin-bottom: 57px;
+}
+
+.home-guide {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 20px 0 75px 0;
+}
+.home-guide h1 {
+  margin: 40px 20px 0 20px;
+}
+.home-guide div {
+  display: flex;
+  flex-direction: row;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  gap: 23px;
+  margin: 0 20px 0 40px;
+  white-space: nowrap;
+}
+.home-guide div i {
+  align-self: center;
+  position: relative;
+  bottom: 5px;
+}
+.home-guide div p:first-of-type {
+  color: white;
+  background-color: #9356dc;
+  border-radius: 30px;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+  right: 30px;
+  bottom: 2px;
+}
+.home-guide div p:nth-of-type(2n) {
+  font-weight: 500;
+}
+
+.home-restaurants {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F6F6;
+  padding: 30px 0 66px 0;
+}
+.home-restaurants h1 {
+  margin: 40px 20px 0 20px;
+}
+.home-restaurants_card {
+  margin: 18px;
+  position: relative;
+}
+.home-restaurants_card img {
+  background-color: white;
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 231px;
+  object-fit: cover;
+}
+.home-restaurants_card-content {
+  line-height: 5px;
+  padding: 5px 0 5px 15px;
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+
+.home-restaurants_card-container_nouveau {
+  position: absolute;
+  bottom: 80%;
+  right: 1em;
+}
+.home-restaurants_card-container_nouveau p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+  color: #008766;
+  background-color: #99E2D0;
+  padding: 7px;
+  width: 80px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+  padding: 25px;
+  line-height: 30px;
+}
+footer img {
+  filter: invert(1);
+  width: 137px;
+  margin-bottom: 16px;
+  padding: 10px 10px 10px 0;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer div {
+  display: grid;
+  grid-template-columns: 15px 100%;
+  gap: 10px;
+}
+footer div i {
+  align-self: center;
+}
+
+/*# sourceMappingURL=style.css.map */
