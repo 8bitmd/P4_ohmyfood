@@ -219,7 +219,6 @@ header img, header div {
   position: absolute;
   bottom: 80%;
   right: 1em;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .home-restaurants_card-container_nouveau p {
   display: flex;
@@ -231,6 +230,7 @@ header img, header div {
   background-color: #99E2D0;
   padding: 7px;
   width: 80px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 footer {
