@@ -3,7 +3,7 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/style.css"> 
+        <link rel="stylesheet" href="./assets/style.css">
         <title>ohmyfood</title>
         <script src="https://kit.fontawesome.com/72c9564a14.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,9 +13,11 @@
 
     <body>
         <header>
+            <a href="index.html">
             <div class="header-logo">
                 <img src="assets/images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood">
             </div>
+            </a>
             <div class="header-location">
                 <i class="fa-solid fa-location-dot fa-sm" style="color: #353535;"></i>
                 <p>Paris, Belleville</p>
@@ -26,63 +28,156 @@
             <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
             <button class="btn-main">Explorer nos restaurants</button>
         </section>
-        <section class="home-guide">
+
+        <section class="home-steps">
             <h1>Fonctionnement</h1>
-                <div>
-                    <p>1</p>
-                    <i class="fa-solid fa-mobile-screen" style="color: #7E7E7E;"></i>
-                    <p>Choisissez un restaurant</p>
+            <div class="home-steps_cards-container">
+                <div class="home-steps_card">
+                    <p class="home-steps_card-number">1</p>
+                    <i class="fa-solid fa-mobile-screen fa-lg"></i>
+                    <p class="home-steps_card-step">Choisissez un restaurant</p>
                 </div>
-                <div>
-                    <p>2</p>
-                    <i class="fa-solid fa-list" style="color: #7E7E7E;"></i>
-                    <p>Composez votre menu</p>
+                <div class="home-steps_card">
+                    <p class="home-steps_card-number">2</p>
+                    <i class="fa-solid fa-list fa-lg"></i>
+                    <p class="home-steps_card-step">Composez votre menu</p>
                 </div>
-                <div>
-                    <p>3</p>
-                    <i class="fa-solid fa-store" style="color: #9356dc;"></i>
-                    <p>Dégustez au restaurant</p>
+                <div class="home-steps_card">
+                    <p class="home-steps_card-number">3</p>
+                    <i class="fa-solid fa-store fa-lg"></i>
+                    <p class="home-steps_card-step">Dégustez au restaurant</p>
                 </div>
+            </div>
         </section>
+
         <section class="home-restaurants">
             <h1>Restaurants</h1>
-            <div class="home-restaurants_card">
-                <div class="home-restaurants_card-container">
-                    <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg">
-                    <div class="home-restaurants_card-container_nouveau">
-                        <p>Nouveau</p>
+            <div class="home-restaurants_cards">
+                <a href="">
+                <div class="home-restaurants_card">
+                    <div class="home-restaurants_card-container">
+                        <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg">
+                        <div class="home-restaurants_card-container_nouveau">
+                            <p>Nouveau</p>
+                        </div>
+                    </div>
+                    <div class="home-restaurants_card-content">
+                        <h3>La palette du goût</h3>
+                        <p>Ménilmontant</p>
+                        <div id="like">
+                            <svg class="heart" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+                                <defs>
+                                    <linearGradient id="heart-gradient" gradientTransform="rotate(90)">
+                                        <stop offset="5%" stop-color="#9356dc" />
+                                        <stop offset="95%" stop-color="#ff79da" />
+                                    </linearGradient>
+                                </defs>
+                                <path class="heart-fill" d="M735.4,113.6C693.5,71.7,638,48.8,578.8,48.8s-114.8,23.1-156.7,65l-21.9,21.9L378,113.5c-41.9-41.9-97.7-65.1-156.9-65.1
+                                c-59,0-114.6,23.1-156.4,64.8C22.9,155-0.2,210.6,0,269.8C0,329,23.2,384.5,65.1,426.4l318.5,318.5c4.4,4.4,10.3,6.8,16.1,6.8
+                                s11.7-2.2,16.1-6.6l319.2-318c41.9-41.9,65-97.5,65-156.7C800.2,211.2,777.3,155.5,735.4,113.6z"/>
+                                <path class="heart-outline" d="M735.4,113.6C693.5,71.7,638,48.8,578.8,48.8c-59.2,0-114.8,23.1-156.7,65l-21.9,21.9L378,113.5
+                                c-41.9-41.9-97.7-65.1-156.9-65.1c-59,0-114.6,23.1-156.4,64.8C22.9,155-0.2,210.6,0,269.8C0,329,23.2,384.5,65.1,426.4l318.5,318.5
+                                c4.4,4.4,10.3,6.8,16.1,6.8c5.8,0,11.7-2.2,16.1-6.6l319.2-318c41.9-41.9,65-97.5,65-156.7C800.2,211.2,777.3,155.5,735.4,113.6z
+                                 M702.8,394.7L399.7,696.5L97.4,394.1c-33.2-33.2-51.6-77.3-51.6-124.3s18.1-91.1,51.4-124.1c33.1-33.1,77.2-51.4,124-51.4
+                                c47,0,91.2,18.3,124.5,51.6l38.3,38.3c9,9,23.4,9,32.4,0l38-38c33.2-33.2,77.5-51.6,124.3-51.6c46.8,0,90.9,18.3,124.1,51.4
+                                c33.2,33.2,51.4,77.3,51.4,124.3C754.4,317.3,736.1,361.4,702.8,394.7z"/>
+                            </svg>
+                        </div>
                     </div>
                 </div>
-                <div class="home-restaurants_card-content">
-                    <h3>La palette du goût</h3>
-                    <p>Ménilmontant</p>
-                </div>
-            </div>
-            <div class="home-restaurants_card">
-                <div class="home-restaurants_card-container">
-                    <img src="assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg">
-                    <div class="home-restaurants_card-container_nouveau">
-                        <p class="nouveau">Nouveau</p>
+                </a>
+
+                <a href="">
+                <div class="home-restaurants_card">
+                    <div class="home-restaurants_card-container">
+                        <img src="assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg">
+                        <div class="home-restaurants_card-container_nouveau">
+                            <p class="nouveau">Nouveau</p>
+                        </div>
+                    </div>
+                    <div class="home-restaurants_card-content">
+                        <h3>La note enchantée</h3>
+                        <p>Charonne</p>
+                        <div id="like">
+                            <svg class="heart" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+                                <defs>
+                                    <linearGradient id="heart-gradient" gradientTransform="rotate(90)">
+                                        <stop offset="5%" stop-color="#9356dc" />
+                                        <stop offset="95%" stop-color="#ff79da" />
+                                    </linearGradient>
+                                </defs>
+                                <path class="heart-fill" d="M735.4,113.6C693.5,71.7,638,48.8,578.8,48.8s-114.8,23.1-156.7,65l-21.9,21.9L378,113.5c-41.9-41.9-97.7-65.1-156.9-65.1
+                                c-59,0-114.6,23.1-156.4,64.8C22.9,155-0.2,210.6,0,269.8C0,329,23.2,384.5,65.1,426.4l318.5,318.5c4.4,4.4,10.3,6.8,16.1,6.8
+                                s11.7-2.2,16.1-6.6l319.2-318c41.9-41.9,65-97.5,65-156.7C800.2,211.2,777.3,155.5,735.4,113.6z"/>
+                                <path class="heart-outline" d="M735.4,113.6C693.5,71.7,638,48.8,578.8,48.8c-59.2,0-114.8,23.1-156.7,65l-21.9,21.9L378,113.5
+                                c-41.9-41.9-97.7-65.1-156.9-65.1c-59,0-114.6,23.1-156.4,64.8C22.9,155-0.2,210.6,0,269.8C0,329,23.2,384.5,65.1,426.4l318.5,318.5
+                                c4.4,4.4,10.3,6.8,16.1,6.8c5.8,0,11.7-2.2,16.1-6.6l319.2-318c41.9-41.9,65-97.5,65-156.7C800.2,211.2,777.3,155.5,735.4,113.6z
+                                 M702.8,394.7L399.7,696.5L97.4,394.1c-33.2-33.2-51.6-77.3-51.6-124.3s18.1-91.1,51.4-124.1c33.1-33.1,77.2-51.4,124-51.4
+                                c47,0,91.2,18.3,124.5,51.6l38.3,38.3c9,9,23.4,9,32.4,0l38-38c33.2-33.2,77.5-51.6,124.3-51.6c46.8,0,90.9,18.3,124.1,51.4
+                                c33.2,33.2,51.4,77.3,51.4,124.3C754.4,317.3,736.1,361.4,702.8,394.7z"/>
+                            </svg>
+                        </div>
                     </div>
                 </div>
-                <div class="home-restaurants_card-content">
-                    <h3>La note enchantée</h3>
-                    <p>Charonne</p>
+                </a>
+
+                <a href="">
+                <div class="home-restaurants_card">
+                    <img src="assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg">
+                    <div class="home-restaurants_card-content">
+                        <h3>À la française</h3>
+                        <p>Cité Rouge</p>
+                        <div id="like">
+                            <svg class="heart" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+                                <defs>
+                                    <linearGradient id="heart-gradient" gradientTransform="rotate(90)">
+                                        <stop offset="5%" stop-color="#9356dc" />
+                                        <stop offset="95%" stop-color="#ff79da" />
+                                    </linearGradient>
+                                </defs>
+                                <path class="heart-fill" d="M735.4,113.6C693.5,71.7,638,48.8,578.8,48.8s-114.8,23.1-156.7,65l-21.9,21.9L378,113.5c-41.9-41.9-97.7-65.1-156.9-65.1
+                                c-59,0-114.6,23.1-156.4,64.8C22.9,155-0.2,210.6,0,269.8C0,329,23.2,384.5,65.1,426.4l318.5,318.5c4.4,4.4,10.3,6.8,16.1,6.8
+                                s11.7-2.2,16.1-6.6l319.2-318c41.9-41.9,65-97.5,65-156.7C800.2,211.2,777.3,155.5,735.4,113.6z"/>
+                                <path class="heart-outline" d="M735.4,113.6C693.5,71.7,638,48.8,578.8,48.8c-59.2,0-114.8,23.1-156.7,65l-21.9,21.9L378,113.5
+                                c-41.9-41.9-97.7-65.1-156.9-65.1c-59,0-114.6,23.1-156.4,64.8C22.9,155-0.2,210.6,0,269.8C0,329,23.2,384.5,65.1,426.4l318.5,318.5
+                                c4.4,4.4,10.3,6.8,16.1,6.8c5.8,0,11.7-2.2,16.1-6.6l319.2-318c41.9-41.9,65-97.5,65-156.7C800.2,211.2,777.3,155.5,735.4,113.6z
+                                 M702.8,394.7L399.7,696.5L97.4,394.1c-33.2-33.2-51.6-77.3-51.6-124.3s18.1-91.1,51.4-124.1c33.1-33.1,77.2-51.4,124-51.4
+                                c47,0,91.2,18.3,124.5,51.6l38.3,38.3c9,9,23.4,9,32.4,0l38-38c33.2-33.2,77.5-51.6,124.3-51.6c46.8,0,90.9,18.3,124.1,51.4
+                                c33.2,33.2,51.4,77.3,51.4,124.3C754.4,317.3,736.1,361.4,702.8,394.7z"/>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="home-restaurants_card">
-                <img src="assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg">
-                <div class="home-restaurants_card-content">
-                    <h3>À la française</h3>
-                    <p>Cité Rouge</p>
+                </a>
+
+                <a href="">
+                <div class="home-restaurants_card">
+                    <img src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg">
+                    <div class="home-restaurants_card-content">
+                        <h3>Le délice des sens</h3>
+                        <p>Folie-Méricourt</p>
+                        <div id="like">
+                            <svg class="heart" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+                                <defs>
+                                    <linearGradient id="heart-gradient" gradientTransform="rotate(90)">
+                                        <stop offset="5%" stop-color="#9356dc" />
+                                        <stop offset="95%" stop-color="#ff79da" />
+                                    </linearGradient>
+                                </defs>
+                                <path class="heart-fill" d="M735.4,113.6C693.5,71.7,638,48.8,578.8,48.8s-114.8,23.1-156.7,65l-21.9,21.9L378,113.5c-41.9-41.9-97.7-65.1-156.9-65.1
+                                c-59,0-114.6,23.1-156.4,64.8C22.9,155-0.2,210.6,0,269.8C0,329,23.2,384.5,65.1,426.4l318.5,318.5c4.4,4.4,10.3,6.8,16.1,6.8
+                                s11.7-2.2,16.1-6.6l319.2-318c41.9-41.9,65-97.5,65-156.7C800.2,211.2,777.3,155.5,735.4,113.6z"/>
+                                <path class="heart-outline" d="M735.4,113.6C693.5,71.7,638,48.8,578.8,48.8c-59.2,0-114.8,23.1-156.7,65l-21.9,21.9L378,113.5
+                                c-41.9-41.9-97.7-65.1-156.9-65.1c-59,0-114.6,23.1-156.4,64.8C22.9,155-0.2,210.6,0,269.8C0,329,23.2,384.5,65.1,426.4l318.5,318.5
+                                c4.4,4.4,10.3,6.8,16.1,6.8c5.8,0,11.7-2.2,16.1-6.6l319.2-318c41.9-41.9,65-97.5,65-156.7C800.2,211.2,777.3,155.5,735.4,113.6z
+                                 M702.8,394.7L399.7,696.5L97.4,394.1c-33.2-33.2-51.6-77.3-51.6-124.3s18.1-91.1,51.4-124.1c33.1-33.1,77.2-51.4,124-51.4
+                                c47,0,91.2,18.3,124.5,51.6l38.3,38.3c9,9,23.4,9,32.4,0l38-38c33.2-33.2,77.5-51.6,124.3-51.6c46.8,0,90.9,18.3,124.1,51.4
+                                c33.2,33.2,51.4,77.3,51.4,124.3C754.4,317.3,736.1,361.4,702.8,394.7z"/>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="home-restaurants_card">
-                <img src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg">
-                <div class="home-restaurants_card-content">
-                    <h3>Le délice des sens</h3>
-                    <p>Folie-Méricourt</p>
-                </div>
+                </a>
             </div>
         </section>
         <footer>
