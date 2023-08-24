@@ -249,6 +249,7 @@ footer img {
 footer a {
   text-decoration: none;
   color: white;
+  width: max-content;
 }
 footer div {
   display: grid;
@@ -257,6 +258,8 @@ footer div {
 }
 footer div a {
   font-weight: 500;
+  line-height: 30px;
+  height: 30px;
 }
 footer div i {
   align-self: center;
