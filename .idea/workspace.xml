@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5d5865ba-cf25-47f6-8628-642e185f51fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/homepage.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/homepage.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/homepage.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/homepage.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <workItem from="1693218501541" duration="5062000" />
       <workItem from="1693305298625" duration="120000" />
       <workItem from="1693305424581" duration="146000" />
-      <workItem from="1693305576156" duration="15186000" />
+      <workItem from="1693305576156" duration="15748000" />
     </task>
     <servers />
   </component>
