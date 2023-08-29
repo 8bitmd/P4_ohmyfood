@@ -4,11 +4,55 @@ $tertiary-color: #99e2d0
 $grey: #353535
 $grey2: #EAEAEA
 
-.chargement
-  animation: icone_chargement 5s
-  position: absolute
-  top: 50%
-  left: 45%
+@keyframes loader
+  0%
+    opacity: 1
+    z-index: 100
+  75%
+    opacity: 1
+    z-index: 100
+  100%
+    opacity: 0
+    z-index: -5
+
+@keyframes loader-jump
+  0%
+    transform: translateY(0)
+  50%
+    transform: translateY(-300%)
+  100%
+    transform: translateY(0)
+
+.loader
+  display: flex
+  justify-content: center
+  align-items: center
+  gap: 30px
+  position: fixed
+  height: 100%
+  width: 100%
+  left: 0
+  top: 0
+  z-index: -5
+  opacity: 0
+  background-color: $grey
+  animation: loader 3s
+  .ball
+    width: 1rem
+    height: 1rem
+    border-radius: 1rem
+    animation: loader-jump 3s
+    &1
+      background-color: $primary-color
+    &2
+      background-color: $secondary-color
+      animation-delay: 0.5s
+    &3
+      background-color: $tertiary-color
+      animation-delay: 1s
+
+body
+
 
 .header-location
   height: 50px
