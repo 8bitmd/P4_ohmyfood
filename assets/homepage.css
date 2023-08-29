@@ -1,3 +1,10 @@
+.chargement {
+  animation: icone_chargement 5s;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
 .header-location {
   height: 50px;
   gap: 17px;
