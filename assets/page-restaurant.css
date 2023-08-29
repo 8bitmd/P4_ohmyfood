@@ -119,23 +119,26 @@ body {
 .menu .section1 .menu-item_container:nth-child(3) {
   animation: sliding_items 1.5s;
 }
-.menu .section2 .menu-item_container:nth-child(1) {
+.menu .section1 .menu-item_container:nth-child(4) {
   animation: sliding_items 1.75s;
 }
-.menu .section2 .menu-item_container:nth-child(2) {
+.menu .section2 .menu-item_container:nth-child(1) {
   animation: sliding_items 2s;
 }
-.menu .section2 .menu-item_container:nth-child(3) {
+.menu .section2 .menu-item_container:nth-child(2) {
   animation: sliding_items 2.25s;
 }
-.menu .section3 .menu-item_container:nth-child(1) {
+.menu .section2 .menu-item_container:nth-child(3) {
   animation: sliding_items 2.5s;
 }
-.menu .section3 .menu-item_container:nth-child(2) {
+.menu .section3 .menu-item_container:nth-child(1) {
   animation: sliding_items 2.75s;
 }
-.menu .section3 .menu-item_container:nth-child(3) {
+.menu .section3 .menu-item_container:nth-child(2) {
   animation: sliding_items 3s;
+}
+.menu .section3 .menu-item_container:nth-child(3) {
+  animation: sliding_items 3.25s;
 }
 .menu h3 {
   text-transform: uppercase;
@@ -190,13 +193,14 @@ body {
   height: 100%;
   transition: all 300ms;
   position: relative;
+  cursor: pointer;
 }
 .menu-item_container:hover {
   background-color: #99e2d0;
 }
 .menu-item_container:hover .menu-item {
   border-radius: 25px 0 0 25px;
-  width: calc(98% - 85px);
+  width: calc(98% - 75px);
 }
 .menu-item_container:hover .check span {
   transform: translateX(50%) rotate(360deg);
@@ -211,7 +215,6 @@ body {
   opacity: 0;
   transition: all 300ms;
   transform: translateX(100%) rotate(180deg);
-  cursor: default;
   user-select: none;
 }
 

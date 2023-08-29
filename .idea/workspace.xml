@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d5865ba-cf25-47f6-8628-642e185f51fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurants/a-la-francaise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurants/delice-des-sens.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurants/note-enchantee.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/divider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/homepage.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/homepage.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page-restaurant.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page-restaurant.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page-restaurant.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page-restaurant.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurants/palette-du-gout.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurants/palette-du-gout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/homepage.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/homepage.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/page-restaurant.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/page-restaurant.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +111,7 @@
       <workItem from="1693218501541" duration="5062000" />
       <workItem from="1693305298625" duration="120000" />
       <workItem from="1693305424581" duration="146000" />
-      <workItem from="1693305576156" duration="10666000" />
+      <workItem from="1693305576156" duration="12547000" />
     </task>
     <servers />
   </component>

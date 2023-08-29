@@ -96,20 +96,22 @@ body
       animation: sliding_items 1.25s
     .menu-item_container:nth-child(3)
       animation: sliding_items 1.5s
+    .menu-item_container:nth-child(4)
+      animation: sliding_items 1.75s
   .section2
     .menu-item_container:nth-child(1)
-      animation: sliding_items 1.75s
-    .menu-item_container:nth-child(2)
       animation: sliding_items 2s
-    .menu-item_container:nth-child(3)
+    .menu-item_container:nth-child(2)
       animation: sliding_items 2.25s
+    .menu-item_container:nth-child(3)
+      animation: sliding_items 2.5s
   .section3
     .menu-item_container:nth-child(1)
-      animation: sliding_items 2.5s
-    .menu-item_container:nth-child(2)
       animation: sliding_items 2.75s
-    .menu-item_container:nth-child(3)
+    .menu-item_container:nth-child(2)
       animation: sliding_items 3s
+    .menu-item_container:nth-child(3)
+      animation: sliding_items 3.25s
   h3
     text-transform: uppercase
     font-size: 16px
@@ -155,11 +157,12 @@ body
   height: 100%
   transition: all 300ms
   position: relative
+  cursor: pointer
   &:hover
     background-color: rgba($tertiary-color, 1)
   &:hover .menu-item
     border-radius: 25px 0 0 25px
-    width: calc($menu-item_width - 85px)
+    width: calc($menu-item_width - 75px)
   &:hover .check span
     transform: translateX(50%) rotate(360deg)
     opacity: 1
@@ -173,7 +176,6 @@ body
       opacity: 0
       transition: all 300ms
       transform: translateX(100%) rotate(180deg)
-      cursor: default
       user-select: none
 
 .commander-div
