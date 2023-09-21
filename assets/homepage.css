@@ -65,6 +65,7 @@
 }
 .header-location i {
   align-self: center;
+  color: #353535;
 }
 
 .home-book {
@@ -210,19 +211,19 @@
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
 }
-.home-restaurants_card-content #like svg {
+.home-restaurants_card-content .like svg {
   width: 30px;
   position: absolute;
   right: 1em;
   bottom: 8%;
 }
-.home-restaurants_card-content #like:hover {
+.home-restaurants_card-content .like:hover {
   cursor: pointer;
 }
-.home-restaurants_card-content #like:hover .heart-fill {
+.home-restaurants_card-content .like:hover .heart-fill {
   opacity: 1;
 }
-.home-restaurants_card-content #like:hover .heart-outline {
+.home-restaurants_card-content .like:hover .heart-outline {
   opacity: 0;
 }
 

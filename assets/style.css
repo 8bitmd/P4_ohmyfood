@@ -115,6 +115,7 @@ footer .footer_div1 div a {
 }
 footer .footer_div1 div i {
   align-self: center;
+  color: white;
 }
 footer .footer_div2 {
   display: flex;

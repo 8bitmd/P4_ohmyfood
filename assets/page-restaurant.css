@@ -38,39 +38,61 @@ body {
   background-color: white;
 }
 
-.heart-fill {
-  opacity: 0;
-  fill: url(#heart-gradient);
+@media (min-width: 1024px) {
+  .restaurant-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+    padding-top: 25px;
+  }
 }
-
-.heart-outline {
-  opacity: 1;
-  fill: #000000;
+.restaurant-title h1 {
+  margin-left: 30px;
+  padding-top: 25px;
 }
-
-.heart-outline, .heart-fill {
-  transition-property: opacity;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
+@media (min-width: 1024px) {
+  .restaurant-title h1 {
+    padding-top: 0;
+  }
 }
-
-#like svg {
+.restaurant-title #like {
+  display: flex;
+  justify-self: center;
+}
+.restaurant-title #like svg {
   width: 30px;
   position: absolute;
   right: 1em;
   top: 2em;
   margin-right: 30px;
 }
-
-#like:hover {
+@media (min-width: 1024px) {
+  .restaurant-title #like svg {
+    position: static;
+    width: 25px;
+  }
+}
+.restaurant-title #like svg .heart-fill {
+  opacity: 0;
+  fill: url(#heart-gradient);
+}
+.restaurant-title #like svg .heart-outline {
+  opacity: 1;
+  fill: #000000;
+}
+.restaurant-title #like svg .heart-outline, .restaurant-title #like svg .heart-fill {
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.restaurant-title #like:hover {
   cursor: pointer;
 }
-
-#like:hover .heart-fill {
+.restaurant-title #like:hover .heart-fill {
   opacity: 1;
 }
-
-#like:hover .heart-outline {
+.restaurant-title #like:hover .heart-outline {
   opacity: 0;
 }
 
@@ -84,16 +106,7 @@ body {
 @media (min-width: 1024px) {
   .menu {
     margin: 0 130px -63px 130px;
-  }
-}
-.menu h1 {
-  margin-left: 30px;
-  padding-top: 25px;
-}
-@media (min-width: 1024px) {
-  .menu h1 {
-    display: flex;
-    justify-content: center;
+    padding: 0 15% 0 15%;
   }
 }
 .menu section, .menu h3, .menu .divider {
@@ -110,34 +123,34 @@ body {
   flex-direction: column;
   gap: 20px;
 }
-.menu .section1 .menu-item_container:nth-child(1) {
+.menu .animated-section1 .menu-item_container:nth-child(1) {
   animation: sliding_items 1s;
 }
-.menu .section1 .menu-item_container:nth-child(2) {
+.menu .animated-section1 .menu-item_container:nth-child(2) {
   animation: sliding_items 1.25s;
 }
-.menu .section1 .menu-item_container:nth-child(3) {
+.menu .animated-section1 .menu-item_container:nth-child(3) {
   animation: sliding_items 1.5s;
 }
-.menu .section1 .menu-item_container:nth-child(4) {
+.menu .animated-section1 .menu-item_container:nth-child(4) {
   animation: sliding_items 1.75s;
 }
-.menu .section2 .menu-item_container:nth-child(1) {
+.menu .animated-section2 .menu-item_container:nth-child(1) {
   animation: sliding_items 2s;
 }
-.menu .section2 .menu-item_container:nth-child(2) {
+.menu .animated-section2 .menu-item_container:nth-child(2) {
   animation: sliding_items 2.25s;
 }
-.menu .section2 .menu-item_container:nth-child(3) {
+.menu .animated-section2 .menu-item_container:nth-child(3) {
   animation: sliding_items 2.5s;
 }
-.menu .section3 .menu-item_container:nth-child(1) {
+.menu .animated-section3 .menu-item_container:nth-child(1) {
   animation: sliding_items 2.75s;
 }
-.menu .section3 .menu-item_container:nth-child(2) {
+.menu .animated-section3 .menu-item_container:nth-child(2) {
   animation: sliding_items 3s;
 }
-.menu .section3 .menu-item_container:nth-child(3) {
+.menu .animated-section3 .menu-item_container:nth-child(3) {
   animation: sliding_items 3.25s;
 }
 .menu h3 {
@@ -152,6 +165,9 @@ body {
   margin-top: 8px;
   width: 40px;
   height: 3px;
+}
+.menu h3:not(:first-of-type) {
+  margin-top: 50px;
 }
 .menu-item {
   background-color: white;
@@ -200,7 +216,7 @@ body {
 }
 .menu-item_container:hover .menu-item {
   border-radius: 25px 0 0 25px;
-  width: calc(98% - 75px);
+  width: calc(98% - 70px);
 }
 .menu-item_container:hover .check span {
   transform: translateX(50%) rotate(360deg);
