@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d5865ba-cf25-47f6-8628-642e185f51fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/P4 - ohmyfood.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/P4 - ohmyfood.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/homepage.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/homepage.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/page-restaurant.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page-restaurant.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/page-restaurant.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page-restaurant.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurants/a-la-francaise.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurants/a-la-francaise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurants/delice-des-sens.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurants/delice-des-sens.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurants/note-enchantee.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurants/note-enchantee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurants/palette-du-gout.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurants/palette-du-gout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/homepage.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/homepage.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/page-restaurant.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/page-restaurant.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +113,12 @@
       <workItem from="1693487680194" duration="724000" />
       <workItem from="1694171168878" duration="1815000" />
       <workItem from="1694527029522" duration="1253000" />
-      <workItem from="1695302638611" duration="4439000" />
+      <workItem from="1695302638611" duration="5442000" />
+      <workItem from="1695829772050" duration="52000" />
+      <workItem from="1696235929441" duration="7000" />
+      <workItem from="1696942871406" duration="215000" />
+      <workItem from="1697639708672" duration="601000" />
+      <workItem from="1697651394300" duration="3000" />
     </task>
     <servers />
   </component>
